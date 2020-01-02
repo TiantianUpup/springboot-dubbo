@@ -1,0 +1,12 @@
+spring:
+  dubbo:
+    registry:
+      address: zookeeper://127.0.0.1:2181
+    protocol:
+      port: 20880
+      name: dubbo
+    application:
+      name: dubbo-provider
+    scan: com.h2t.study.api
+server:
+  port: 8081

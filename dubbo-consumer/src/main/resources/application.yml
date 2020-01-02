@@ -1,0 +1,28 @@
+#spring:
+#  dubbo:
+#    registry:
+#      address: zookeeper://127.0.0.1:2181
+#    application:
+#      name: dubbo-consumer
+#    scan: com.h2t.study.api
+#server:
+#  port: 8082
+
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+application:
+  #版本号
+  version: 1.0.0
+
+dubbo:
+  application:
+    #应用名称，每个dubbo应用的名称都是唯一的
+    name: dubbo-consumer
+  registry:
+    #注册中心
+    address: zookeeper://127.0.0.1:2181
