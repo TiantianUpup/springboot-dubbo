@@ -22,4 +22,9 @@ public class ConsumerController {
     public Object hello() {
         return consumerService.sayHello();
     }
+
+    @GetMapping("/hello")
+    public Object say() {
+        return "hahaha";
+    }
 }
