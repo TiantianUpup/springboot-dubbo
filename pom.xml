@@ -12,6 +12,7 @@
     <modules>
         <module>dubbo-consumer</module>
         <module>dubbo-provider</module>
+        <module>dubbo-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -75,7 +76,6 @@
                 <version>0.2.0</version>
             </dependency>
 
-            <!--zk-->
             <dependency>
                 <groupId>com.101tec</groupId>
                 <artifactId>zkclient</artifactId>
@@ -91,6 +91,12 @@
             <dependency>
                 <groupId>com.h2t.study</groupId>
                 <artifactId>dubbo-provider</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.h2t.study</groupId>
+                <artifactId>dubbo-api</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

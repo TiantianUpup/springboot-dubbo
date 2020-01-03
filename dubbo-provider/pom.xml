@@ -32,5 +32,9 @@
             <artifactId>zkclient</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.h2t.study</groupId>
+            <artifactId>dubbo-api</artifactId>
+        </dependency>
     </dependencies>
 </project>
